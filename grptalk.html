@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Talks for PPD Patients</title>
+    <link rel="stylesheet" href="grptalk.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1>Group Talks for Postpartum Depression (PPD)</h1>
+            <p>Join group chats, share experiences, and support each other on your postpartum journey</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Group Chat Section -->
+        <section class="group-chat">
+            <h2>Join the Group Chat</h2>
+            <div class="chat-room">
+                <div class="chat-display" id="chat-display">
+                    <div class="message">Welcome to the PPD group chat!</div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="chat-input" placeholder="Type your message..." />
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Group Search Section -->
+        <section class="group-search">
+            <h2>Search for Groups</h2>
+            <input type="text" id="search-bar" placeholder="Search groups by topic..." onkeyup="searchGroups()" />
+            <ul id="group-suggestions">
+                <li>Yoga for Postpartum Recovery</li>
+                <li>PPD Support for First-time Moms</li>
+                <li>Postpartum Anxiety Relief</li>
+                <li>Breathing Exercises for Relaxation</li>
+            </ul>
+        </section>
+
+        <!-- Group Suggestions Section -->
+        <section class="group-suggestions">
+            <h2>Suggested Groups</h2>
+            <div class="suggested-groups">
+                <div class="suggested-group">
+                    <h3>Yoga for Postpartum Recovery</h3>
+                    <button class="join-btn">Join</button>
+                </div>
+                <div class="suggested-group">
+                    <h3>PPD Support for First-time Moms</h3>
+                    <button class="join-btn">Join</button>
+                </div>
+                <div class="suggested-group">
+                    <h3>Breathing Exercises for Relaxation</h3>
+                    <button class="join-btn">Join</button>
+                </div>
+                <div class="suggested-group">
+                    <h3>Postpartum Anxiety Relief</h3>
+                    <button class="join-btn">Join</button>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <!-- Additional Resources Section -->
+        <section class="resources">
+            <h2>Additional Resources</h2>
+            <ul>
+                <li><a href="https://www.yogajournal.com/poses/yoga-by-benefit/depression/yoga-poses-meditation-to-ease-postpartum-depression-anxiety/" target="_blank">Yoga for Postpartum Depression</a></li>
+                <li><a href="https://www.psychologytoday.com/us/therapists/ppd" target="_blank">Find a Therapist</a></li>
+                <li><a href="https://www.postpartum.net" target="_blank">Postpartum Support International</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>If you need help or want to talk to a professional, don't hesitate to contact us. <a href="mailto:support@mentalhealth.org">Contact us for support.</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

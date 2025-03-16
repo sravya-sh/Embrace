@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.tips, .yoga-exercises, .sleep-tips {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tips-list, .exercise-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.tip-item, .exercise-item {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tip-item h3, .exercise-item h3 {
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+
+.tip-item p, .exercise-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.therapy-options, .resources {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

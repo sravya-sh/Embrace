@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menustyle.css">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+   
+    
+</head>
+<body>
+    <div class="navbar">
+            <p onclick="scrollToSection('hero')" class="home">HOME</p>
+            <p onclick="scrollToSection('aboutpage')" class="about">ABOUT</p>
+            <p onclick="scrollToSection('support')" class="support">SUPPORT GROUPS</p>
+            <p onclick="scrollToSection('contact')" class="contact">CONTACT US</p>
+    </div>
+    <div class="hero-section">
+
+    </div>  
+    <div>
+        <div class="mood">
+            <p class="moodtext">HOW ARE YOU FEELING TODAY?</p>
+        </div>
+        <div class="emoji-container">
+            <i class="fa-regular fa-face-smile emoji" onclick="showMoodMessage('Happy')"></i>
+            <i class="fa-regular fa-face-sad-tear emoji" onclick="showMoodMessage('Sad')"></i>
+            <i class="fa-regular fa-face-angry emoji" onclick="showMoodMessage('Angry')"></i>
+            <i class="fa-regular fa-face-sad-cry emoji" onclick="showMoodMessage('Depressed')"></i>
+        </div>
+        <p id="mood-message"></p>
+        <div class="moodemo">
+            <label class="happy">Happy</label>
+            <label class="sad">Sad</label>
+            <label class="angry">Angry</label>
+            <label class="depressed">Depressed</label>
+        
+            
+        </div>
+        <div class="section-3">
+            <div>
+                <div class="mood">
+                    <p class="moodtext1">A MOTHER's GUIDE</p>
+                </div>
+                
+                <div class="row1">
+                    <div class="box1">
+                        
+                        <div class="Blogs">
+                            <p><a href="blogs.html">Blogs</a></p>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="box2">
+                        <div class="Mentalhealth">
+                            <p><a href="mentalhealth.html">Mental Health</a></p>
+                        </div>
+                    </div>
+                    <div class="box3">
+                        <div class="Dietplans">
+                            <p><a href="dietplans.html">Diet Plans</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="box4">
+                        <div class="Grouptalks">
+                            <p><a href="grptalk.html">Group Talks</a></p>
+                        </div>
+                    </div>
+                    <div class="box5">
+                        <div class="Babycare">
+                            <p><a href="babycare.html">Baby Care</a></p>
+                        </div>
+                    </div>
+                    <div class="box6">
+                        <div class="Consultation">
+                            <p><a href="consultation.html">Consultation</a></p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+    </div>  
+    <div class="aboutpage">
+       
+    </div>   
+    <div id="contact" class="contact-form">
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button>Submit</button>
+    </div>
+<script src="script.js"></script>    
+</body>
+
+</html>
